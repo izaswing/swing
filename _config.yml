@@ -1,1 +1,25 @@
+prose:
+  media: 'media'
+  metadata:
+    contributions:
+      - name: "author"
+        field:
+          element: "text"
+          label: "Author"
+          value: "author"
+      - name: "title"
+        field:
+          element: "text"
+          label: "Title"
+          value: ""
+      - name: "tags"
+        field:
+          element: "multiselect"
+          label: "Add Tags"
+          placeholder: "Choose Tags"
+          options:
+            - name: "Boogie"
+              value: "boogie"
+            - name: "Lindy hop"
+              value: "lindy_hop"
 
